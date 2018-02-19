@@ -14,3 +14,4 @@ And if you want to only run the test that can be done with the command ```npm te
 
 - I am very fond of the implementation of the console rendering engine. As I was developing this on Windows, I noticed that the console is very slow to re-render whole images 30 times a second and rendering process was very visible. After some thought I added randomness to the rendering process and got an interesting result. The amount of time needed for additional processing is not noticeable compared to the amount of time needed to actually paint the console so the randomized rendering process actually seems much faster at first sight.
 - In the "step" method of the Conway class I have left, commented out, alternative way to write the same logic. It seems cleaner but it is slower and maybe not quite as readable for most people.
+- Whole logic of the game can be written as a simple logic statement and I have done that in this implementation.
