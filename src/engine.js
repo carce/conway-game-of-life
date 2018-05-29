@@ -19,5 +19,5 @@ module.exports = (renderer) => {
         renderer.paint(game.map, previousMap)
         previousMap = game.map
         game.step()
-    }, 1000 / 30)
+    }, 1000 / 10)
 }

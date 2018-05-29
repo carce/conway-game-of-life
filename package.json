@@ -7,7 +7,9 @@
     "test": "mocha",
     "clean": "del-cli -f ./dist",
     "web": "npm test && npm run clean && webpack && live-server",
-    "start": "node ."
+    "start": "node .",
+    "pack2d": "webpack",
+    "pack3d": "IS_3D=true webpack"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,8 @@
   "dependencies": {
     "axel": "0.0.3",
     "live-server": "^1.2.0",
+    "stats.js": "^0.17.0",
+    "three": "^0.92.0",
     "webpack": "^3.11.0"
   },
   "devDependencies": {
