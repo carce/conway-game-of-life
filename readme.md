@@ -6,9 +6,20 @@ Simple implementation of this popular game. Code is separated into modules, core
 
 To run the game inside a terminal/console run ```npm start```.
 
-You can also run the game in the canvas mode by running ```npm run web``` and after a quick test and webpack build you will be presented with a browser window with the game playing.
+To build the game for canvas use ```npm run pack2d```.
+
+To build the game for WebGL use ```npm run pack3d```.
+
+After building the game you need to have a local server running from the project root if you want to see it in the browser.
 
 And if you want to only run the test that can be done with the command ```npm test```.
+
+You can also run the game in the canvas mode by running ```npm run web``` and after a quick test and webpack build you will be presented with a browser window with the game playing.
+
+## Changelog
+
+ - 2018-05-29 - Created 3D renderer using three.js. The build can be done using ```npm run pack3d```. Also added is ```npm run pack2d```.
+ - 2018-02-19 - Initial version with Terminal and Canvas renderers.
 
 ## Trivia
 
