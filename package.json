@@ -16,7 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "axel": "0.0.3",
-    "live-server": "^1.2.0",
+    "live-server": "^1.2.2",
     "stats.js": "^0.17.0",
     "three": "^0.92.0",
     "webpack": "^3.11.0"
